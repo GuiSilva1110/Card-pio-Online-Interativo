@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cardápio Italiano Bella Massa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bella Massa – Cardápio Italiano</h1>
+        <p>Autêntica culinária italiana direto para sua mesa.</p>
+    </header>
+
+    <nav>
+        <a href="#entradas">Entradas</a>
+        <a href="#principais">Pratos Principais</a>
+        <a href="#sobremesas">Sobremesas</a>
+        <a href="#bebidas">Bebidas</a>
+    </nav>
+
+    <main>
+        <!-- Entradas -->
+        <section id="entradas">
+            <h2>Entradas</h2>
+            <div class="item">
+                <img src="imagens/bruschetta.jpg" alt="Bruschetta">
+                <h3>Bruschetta</h3>
+                <p>Pão italiano com tomate, manjericão e azeite de oliva.</p>
+                <span>R$ 18,00</span>
+            </div>
+        </section>
+
+        <!-- Pratos Principais -->
+        <section id="principais">
+            <h2>Pratos Principais</h2>
+            <div class="item">
+                <img src="imagens/lasanha.jpg" alt="Lasanha à Bolonhesa">
+                <h3>Lasanha à Bolonhesa</h3>
+                <p>Camadas de massa, molho bolonhesa e queijo gratinado.</p>
+                <span>R$ 35,00</span>
+            </div>
+        </section>
+
+        <!-- Sobremesas -->
+        <section id="sobremesas">
+            <h2>Sobremesas</h2>
+            <div class="item">
+                <img src="imagens/tiramisu.jpg" alt="Tiramisù">
+                <h3>Tiramisù</h3>
+                <p>Camadas de biscoito, café e creme mascarpone.</p>
+                <span>R$ 20,00</span>
+            </div>
+        </section>
+
+        <!-- Bebidas -->
+        <section id="bebidas">
+            <h2>Bebidas</h2>
+            <div class="item">
+                <img src="imagens/vinho.jpg" alt="Taça de vinho tinto">
+                <h3>Vinho Tinto</h3>
+                <p>Seleção de vinhos italianos.</p>
+                <span>R$ 22,00</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>📞 Reservas: (11) 99999-9999 | 📍 Rua dos Sabores, 100</p>
+        <p>
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a>
+        </p>
+    </footer>
+</body>
+</html>
